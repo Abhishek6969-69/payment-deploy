@@ -1,0 +1,1 @@
+export const LOGO_IMG="https://cdn4.vectorstock.com/i/1000x1000/38/13/digital-wallet-e-payment-logo-design-vector-28823813.jpg"
