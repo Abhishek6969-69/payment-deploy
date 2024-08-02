@@ -31,7 +31,7 @@ function Sigin() {
             <div>
                 <button className=' bg-black text-white w-[250px] p-2 rounded-xl ' onClick={async()=>{
                     console.log("hello")
-                    const response= await axios.post("http://localhost:3000/api/v1/user/signin",{
+                    const response= await axios.post(`${window.location.origin}/api/v1/user/signin`,{
                        
                         email,
                         password

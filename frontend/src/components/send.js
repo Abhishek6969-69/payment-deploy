@@ -29,7 +29,7 @@ function Send() {
                 }}/>
                 </div>
                 <button className=' capitalize border w-[250px] px-4 py-2 my-2 bg-sky-500 mt-3 rounded-lg' onClick={async(e)=>{
-                     try{await axios.post('http://localhost:3000/api/v1/account/transfer',{
+                     try{await axios.post(`${window.location.origin}/api/v1/account/transfer`,{
                         to:id,
                         amount:amount
                      },
